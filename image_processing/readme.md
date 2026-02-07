@@ -23,4 +23,5 @@ EX3. COLOR COVERSION
 
 EX3 ii PATTERN 
 
-![alt text](college_patterns_uniform.png)
+
+<img width="1536" height="754" alt="Figure_1" src="https://github.com/user-attachments/assets/d76ff5f8-03fd-4c99-854a-922e3c1a09ad" />
