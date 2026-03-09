@@ -1,13 +1,31 @@
 import cv2
 
 img = cv2.imread('modi.jpg')
+if img is None:
+    print("Still not found")
+else:
+    print("Loaded OK")
+    cv2.imshow('img', img)
 
-resized = cv2.resize(img, (1000, 300))
+    
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+cv2.imwrite('modi_gray.jpg', img)
 
-cv2.imwrite('modi_small.jpg', resized)
-cv2.imshow('Resized', resized)
-cv2.waitKey(0)  
-cv2.destroyAllWindows()
+print("Image saved")
 
 
 
+
+# Shape
+print("Shape:", img.shape)
+
+# Type
+print("Datatype:", img.dtype)
+
+
+#output
+# Loaded OK
+# Image saved
+# Shape: (900, 900, 3)
+# Datatype: uint8
